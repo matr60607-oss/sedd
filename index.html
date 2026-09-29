@@ -1,8 +1,233 @@
-car-rental
-│
-├── index.html
-├── style.css
-├── script.js
-└── images
-    ├── car1.jpg
-    └── car2.jpg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Car Rental</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">CarRental</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#cars">Cars</a>
+            <a href="#booking">Booking</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div>
+            <h1>Rent Your Dream Car</h1>
+
+            <p>
+                Find the perfect car for your journey.
+                Fast, simple and affordable.
+            </p>
+
+            <a href="#cars" class="btn">
+                View Cars
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Cars -->
+    <section class="cars" id="cars">
+
+        <h2>Our Cars</h2>
+
+        <div class="car-container">
+
+            <!-- Car 1 -->
+            <div class="car-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=900&q=80"
+                    alt="BMW"
+                >
+
+                <div class="car-info">
+
+                    <h3>BMW 5 Series</h3>
+
+                    <p>
+                        Automatic • 5 Seats • Petrol
+                    </p>
+
+                    <div class="price">
+                        $80 / day
+                    </div>
+
+                    <button
+                        class="btn book-btn"
+                        data-car="BMW 5 Series"
+                    >
+                        Book Now
+                    </button>
+
+                </div>
+            </div>
+
+
+            <!-- Car 2 -->
+            <div class="car-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=900&q=80"
+                    alt="Mercedes"
+                >
+
+                <div class="car-info">
+
+                    <h3>Mercedes-Benz C-Class</h3>
+
+                    <p>
+                        Automatic • 5 Seats • Petrol
+                    </p>
+
+                    <div class="price">
+                        $95 / day
+                    </div>
+
+                    <button
+                        class="btn book-btn"
+                        data-car="Mercedes-Benz C-Class"
+                    >
+                        Book Now
+                    </button>
+
+                </div>
+            </div>
+
+
+            <!-- Car 3 -->
+            <div class="car-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80"
+                    alt="Porsche"
+                >
+
+                <div class="car-info">
+
+                    <h3>Porsche 911</h3>
+
+                    <p>
+                        Automatic • 2 Seats • Petrol
+                    </p>
+
+                    <div class="price">
+                        $180 / day
+                    </div>
+
+                    <button
+                        class="btn book-btn"
+                        data-car="Porsche 911"
+                    >
+                        Book Now
+                    </button>
+
+                </div>
+            </div>
+
+
+            <!-- Car 4 -->
+            <div class="car-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=900&q=80"
+                    alt="Audi"
+                >
+
+                <div class="car-info">
+
+                    <h3>Audi A6</h3>
+
+                    <p>
+                        Automatic • 5 Seats • Hybrid
+                    </p>
+
+                    <div class="price">
+                        $90 / day
+                    </div>
+
+                    <button
+                        class="btn book-btn"
+                        data-car="Audi A6"
+                    >
+                        Book Now
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Booking -->
+    <section class="booking" id="booking">
+
+        <h2>Book Your Car</h2>
+
+        <form class="booking-form">
+
+            <select id="car" required>
+                <option value="">Select a car</option>
+                <option value="BMW 5 Series">BMW 5 Series</option>
+                <option value="Mercedes-Benz C-Class">
+                    Mercedes-Benz C-Class
+                </option>
+                <option value="Porsche 911">Porsche 911</option>
+                <option value="Audi A6">Audi A6</option>
+            </select>
+
+            <input
+                type="date"
+                id="date"
+                required
+            >
+
+            <input
+                type="text"
+                placeholder="Your name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your email"
+                required
+            >
+
+            <button type="submit" class="btn">
+                Confirm Booking
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 CarRental. All rights reserved.
+        </p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
