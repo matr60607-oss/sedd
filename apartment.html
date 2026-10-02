@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Подробная информация о квартире посуточно."
+    >
+
+    <title>Квартира — КвартиGo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container header-inner">
+
+        <a href="index.html" class="logo">
+            <span class="logo-icon">⌂</span>
+            <span>КвартиGo</span>
+        </a>
+
+        <nav class="nav">
+            <a href="index.html#apartments">Квартиры</a>
+            <a href="index.html#advantages">Преимущества</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+
+        <a href="index.html#apartments" class="owner-btn">
+            Все квартиры
+        </a>
+
+    </div>
+</header>
+
+
+<main class="apartment-page">
+
+    <div class="container">
+
+        <!-- BACK -->
+        <a href="index.html#apartments" class="back-link">
+            ← Вернуться к квартирам
+        </a>
+
+
+        <!-- GALLERY -->
+        <section class="apartment-gallery">
+
+            <div class="gallery-main">
+                <img
+                    id="mainApartmentImage"
+                    src=""
+                    alt="Квартира"
+                >
+            </div>
+
+            <div class="gallery-side">
+
+                <div>
+                    <img
+                        id="apartmentImage2"
+                        src=""
+                        alt="Квартира"
+                    >
+                </div>
+
+                <div>
+                    <img
+                        id="apartmentImage3"
+                        src=""
+                        alt="Квартира"
+                    >
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTENT -->
+        <section class="apartment-layout">
+
+            <div class="apartment-main-content">
+
+                <div class="apartment-heading">
+
+                    <div>
+                        <span
+                            class="section-label"
+                            id="apartmentType"
+                        >
+                            КВАРТИРА
+                        </span>
+
+                        <h1 id="apartmentTitle">
+                            Загрузка...
+                        </h1>
+
+                        <p
+                            class="apartment-location-large"
+                            id="apartmentLocation"
+                        >
+                        </p>
+                    </div>
+
+                    <button
+                        class="page-favorite"
+                        id="favoriteButton"
+                    >
+                        ♡
+                    </button>
+
+                </div>
+
+
+                <!-- RATING -->
+                <div class="apartment-rating-row">
+
+                    <span class="big-rating">
+                        ★ <strong id="apartmentRating">4.9</strong>
+                    </span>
+
+                    <a href="#reviews">
+                        <span id="reviewsCount">24</span> отзыва
+                    </a>
+
+                </div>
+
+
+                <!-- DESCRIPTION -->
+                <div class="apartment-block">
+
+                    <h2>Об этой квартире</h2>
+
+                    <p id="apartmentDescription">
+                        Загрузка описания...
+                    </p>
+
+                </div>
+
+
+                <!-- FEATURES -->
+                <div class="apartment-block">
+
+                    <h2>Что есть в квартире</h2>
+
+                    <div class="amenities-grid">
+
+                        <div class="amenity">
+                            <span>📶</span>
+                            <div>
+                                <strong>Wi-Fi</strong>
+                                <small>Бесплатный интернет</small>
+                            </div>
+                        </div>
+
+                        <div class="amenity">
+                            <span>📺</span>
+                            <div>
+                                <strong>Smart TV</strong>
+                                <small>Телевизор</small>
+                            </div>
+                        </div>
+
+                        <div class="amenity">
+                            <span>🍳</span>
+                            <div>
+                                <strong>Кухня</strong>
+                                <small>Всё необходимое</small>
+                            </div>
+                        </div>
+
+                        <div class="amenity">
+                            <span>🚿</span>
+                            <div>
+                                <strong>Душ</strong>
+                                <small>Ванная комната</small>
+                            </div>
+                        </div>
+
+                        <div class="amenity">
+                            <span>🧺</span>
+                            <div>
+                                <strong>Стиральная машина</strong>
+                                <small>В квартире</small>
+                            </div>
+                        </div>
+
+                        <div class="amenity">
+                            <span>🚗</span>
+                            <div>
+                                <strong>Парковка</strong>
+                                <small>Рядом с домом</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- LOCATION -->
+                <div class="apartment-block">
+
+                    <h2>Расположение</h2>
+
+                    <div class="fake-map">
+                        <div class="map-center">
+                            <span>📍</span>
+                            <strong id="mapLocation">
+                                Центр города
+                            </strong>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- RULES -->
+                <div class="apartment-block">
+
+                    <h2>Правила проживания</h2>
+
+                    <div class="rules">
+
+                        <div>
+                            <span>🕐</span>
+                            <p>
+                                Заезд после <strong>14:00</strong>
+                            </p>
+                        </div>
+
+                        <div>
+                            <span>🕛</span>
+                            <p>
+                                Выезд до <strong>12:00</strong>
+                            </p>
+                        </div>
+
+                        <div>
+                            <span>🚭</span>
+                            <p>
+                                Курение в квартире запрещено
+                            </p>
+                        </div>
+
+                        <div>
+                            <span>🐕</span>
+                            <p>
+                                Размещение животных обсуждается
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- REVIEWS -->
+                <div
+                    class="apartment-block"
+                    id="reviews"
+                >
+
+                    <div class="reviews-heading">
+
+                        <h2>Отзывы гостей</h2>
+
+                        <div class="review-summary">
+                            ★ <strong id="reviewRating">4.9</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="review-list">
+
+                        <article class="review">
+
+                            <div class="review-avatar">
+                                А
+                            </div>
+
+                            <div>
+
+                                <strong>Александр</strong>
+
+                                <div class="review-stars">
+                                    ★★★★★
+                                </div>
+
+                                <p>
+                                    Отличная квартира. Очень чисто,
+                                    удобное расположение и всё необходимое
+                                    для проживания есть.
+                                </p>
+
+                                <small>
+                                    Проживал 3 ночи
+                                </small>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="review">
+
+                            <div class="review-avatar">
+                                М
+                            </div>
+
+                            <div>
+
+                                <strong>Мария</strong>
+
+                                <div class="review-stars">
+                                    ★★★★★
+                                </div>
+
+                                <p>
+                                    Квартира полностью соответствует
+                                    фотографиям. Хозяин быстро отвечал.
+                                </p>
+
+                                <small>
+                                    Проживала 2 ночи
+                                </small>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- BOOKING CARD -->
+            <aside class="booking-card">
+
+                <div class="booking-price">
+
+                    <strong id="apartmentPrice">
+                        12 000 ₸
+                    </strong>
+
+                    <span>
+                        / сутки
+                    </span>
+
+                </div>
+
+
+                <div class="booking-rating">
+                    ★ <span id="bookingRating">4.9</span>
+                    · <span id="bookingReviews">24</span> отзыва
+                </div>
+
+
+                <div class="booking-fields">
+
+                    <div class="booking-field">
+
+                        <label>Заезд</label>
+
+                        <input
+                            type="date"
+                            id="pageCheckin"
+                        >
+
+                    </div>
+
+
+                    <div class="booking-field">
+
+                        <label>Выезд</label>
+
+                        <input
+                            type="date"
+                            id="pageCheckout"
+                        >
+
+                    </div>
+
+
+                    <div class="booking-field">
+
+                        <label>Гости</label>
+
+                        <select id="pageGuests">
+
+                            <option value="1">
+                                1 гость
+                            </option>
+
+                            <option value="2" selected>
+                                2 гостя
+                            </option>
+
+                            <option value="3">
+                                3 гостя
+                            </option>
+
+                            <option value="4">
+                                4 гостя
+                            </option>
+
+                            <option value="5">
+                                5 гостей
+                            </option>
+
+                            <option value="6">
+                                6 гостей
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="booking-btn"
+                    id="calculateBooking"
+                >
+                    Проверить стоимость
+                </button>
+
+
+                <!-- PRICE CALCULATION -->
+
+                <div
+                    class="booking-summary"
+                    id="bookingSummary"
+                >
+
+                    <div>
+                        <span>
+                            <span id="pricePerNight">
+                                12 000 ₸
+                            </span>
+                            ×
+                            <span id="nightCount">0</span>
+                            ночей
+                        </span>
+
+                        <strong id="nightsPrice">
+                            0 ₸
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>Уборка</span>
+                        <strong id="cleaningPrice">
+                            3 000 ₸
+                        </strong>
+                    </div>
+
+                    <div class="summary-total">
+
+                        <span>Итого</span>
+
+                        <strong id="totalPrice">
+                            0 ₸
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="reserve-btn"
+                    id="reserveButton"
+                >
+                    Забронировать
+                </button>
+
+
+                <p class="booking-note">
+                    С вас пока ничего не спишут
+                </p>
+
+            </aside>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<!-- BOOKING MODAL -->
+
+<div
+    class="modal"
+    id="bookingModal"
+>
+
+    <div class="modal-content small-modal">
+
+        <button
+            class="close-modal"
+            id="closeBookingModal"
+        >
+            ×
+        </button>
+
+        <span class="section-label">
+            БРОНИРОВАНИЕ
+        </span>
+
+        <h2>
+            Оставить заявку
+        </h2>
+
+        <p id="bookingApartmentName">
+            Выбранная квартира
+        </p>
+
+
+        <form id="pageBookingForm">
+
+            <label>
+                Ваше имя
+            </label>
+
+            <input
+                type="text"
+                placeholder="Введите имя"
+                required
+            >
+
+
+            <label>
+                Телефон
+            </label>
+
+            <input
+                type="tel"
+                placeholder="+7 (___) ___-__-__"
+                required
+            >
+
+
+            <label>
+                Комментарий
+            </label>
+
+            <textarea
+                placeholder="Например: приеду после 20:00"
+            ></textarea>
+
+
+            <button
+                type="submit"
+                class="booking-btn"
+            >
+                Отправить заявку
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer
+    class="footer"
+    id="contacts"
+>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <a
+                href="index.html"
+                class="logo footer-logo"
+            >
+                <span class="logo-icon">⌂</span>
+                <span>КвартиGo</span>
+            </a>
+
+            <p>
+                Удобная аренда квартир посуточно.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Навигация
+            </h4>
+
+            <a href="index.html#apartments">
+                Квартиры
+            </a>
+
+            <a href="index.html#advantages">
+                Преимущества
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Контакты
+            </h4>
+
+            <a href="tel:+77000000000">
+                +7 (700) 000-00-00
+            </a>
+
+            <a href="mailto:info@kvartigo.kz">
+                info@kvartigo.kz
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        © 2026 КвартиGo. Все права защищены.
+    </div>
+
+</footer>
+
+
+<div
+    class="toast"
+    id="toast"
+>
+
+    <span>✓</span>
+
+    <span id="toastMessage">
+        Готово!
+    </span>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
